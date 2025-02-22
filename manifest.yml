@@ -1,0 +1,7 @@
+applications:
+  - name: gemini-server
+    memory: 512M
+    instances: 1
+    buildpacks:
+      - python_buildpack
+    health-check-type: port
